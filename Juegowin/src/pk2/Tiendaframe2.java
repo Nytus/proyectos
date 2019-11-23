@@ -235,7 +235,7 @@ public class Tiendaframe2 extends Menuframe{
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(jugador1.getDinero()>= 10) {
-					JOptionPane.showMessageDialog(null, "Gracias por la compra de una de mis mejores creaciones (ESP rellenado)");
+					JOptionPane.showMessageDialog(null, "Jajajaja, vi en tu ojo el amor por la bebida, disfruta una de mis creaciones (ESP rellenado)");
 					jugador1.setEsp(jugador1.getEsp() + 20);
 						jugador1.setDinero(jugador1.getDinero() - 15);
 							}

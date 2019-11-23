@@ -110,7 +110,7 @@ String filepath1 = "musica/BatallaMus.wav";
 			public void actionPerformed(ActionEvent e) {
 				jugador1.setVida(jugador1.getVida()-ataE1.generarae());
 				if(jugador1.getEsp() < 5) {
-					JOptionPane.showMessageDialog(null,"No te queda mas cerbeza");
+					JOptionPane.showMessageDialog(null,"No te queda mas cerveza");
 					HP.setText("HP :"+ jugador1.getVida());
 					ESP.setText("ESP :" + jugador1.getEsp());
 					EHP.setText("__---"+ enemigo1.getVida() + "---___");
